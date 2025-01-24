@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Dólares</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="/Projetos - Rodolfo Mori/CSS/my-dolar.gif">
+</head>
+
+<body>
+    <img src="my-dolar.gif" alt="Imagem My Dollar">
+    <h1>Meus Doláres</h1>
+
+    <div>
+        <input id="input-real" type="number" placeholder="Valor em Reais">
+        <input id="input-dolar" type="number" placeholder="Valor em Dólar">
+
+        <!-- O resultado será atualizado aqui -->
+        <p>$ 0</p>
+
+        <div>
+            <p> Atenção! Para saber o valor do dólar ATUALIZADO,</p>
+            <a href="https://www.bcb.gov.br/"> Clique aqui.</a>
+        </div>
+
+        <!-- Corrigido o onclick -->
+        <button onclick="calcularDolar()">Converter</button>
+    </div>
+
+    <!-- Adicionado o script no final do body -->
+    <script src="script.js"></script>
+</body>
+
+</html>
